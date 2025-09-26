@@ -2,6 +2,6 @@
 
 ## Proyecto Intermodular
 
-### [Conocimientos de Linux](linux.md)
+## [Conocimientos de Linux](linux.md)
 
-### [Autor](autor.md)
+## [Autor](autor.md)
