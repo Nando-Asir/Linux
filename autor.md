@@ -3,5 +3,3 @@
 ---
 
 ## [Fernando Durán](https://github.com/Nando-Asir)
-
----
