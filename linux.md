@@ -26,7 +26,9 @@
 
 ### 6. CPU
 
-![CPU](/img/lscpu.png)
+![lscpu](/img/lscpu.png)
+
+![nproc](/img/nproc.png)
 
 ### 7. Discos y particiones
 
@@ -54,16 +56,18 @@
 
 ### 12. Información de la red
 
-![]()
+![infoRed](/img/infoRed.png)
+
+![inforDNS](/img/infoDNS.png)
 
 ### 13. Configuración de la red
 
-![]()
+![interfaces](/img/configRed.png)
 
 ### 14. Configuración de los DNS
 
-![]()
+![resolv](/img/confgDNS.png)
 
 ### 15. Reiniciar o ver la red
 
-![]()
+![systemctl](/img/systemctlStatus.png)
