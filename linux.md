@@ -17,7 +17,7 @@
 - [11. Grupos del sistema]()
 - [12. Información de la red]()
 - [13. Configuración de la red]()
-- [14. Configuración de los DNS](#-configuración-de-los-dns)
+- [14. Configuración de los DNS](#14-configuración-de-los-dns)
 - [15. Reiniciar o ver estado de la red]()
 
 ---
