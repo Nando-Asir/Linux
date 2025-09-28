@@ -38,15 +38,19 @@
 
 ### 9. Tamaño de una carpeta
 
-![]()
+![tamaño](/img/tamanoCarpeta.png)
 
 ### 10. Usuarios del sistema
 
-![]()
+![passwd](/img/passwd.png)
+
+![shadow](/img/shadow.png)
 
 ### 11. Grupos del sistema
 
-![]()
+![group](/img/group.png)
+
+![gshadow](/img/gshadow.png)
 
 ### 12. Información de la red
 
