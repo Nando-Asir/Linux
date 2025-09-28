@@ -2,7 +2,7 @@
 
 **A continuación veremos algunos comandos importantes para conocer parámetros importantes de nuestro servidor**
 
-### ïndice
+### Índice
 
 - [1. Nombre del host](#1-nombre-del-host)
 - [2. Verificar el nombre del host](#2-verificar-el-nombre-del-host)
