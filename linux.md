@@ -29,6 +29,9 @@
 - `hostname`: Vemos el nombre del sistema "debian13".
 - `hostname -I`: Vemos la IP del servidor.
 - `hostname -f`: Podemos ver la FQDN del sistema.
+
+> Si tuvieramos un nombre de dominio saldría completo en la FQDN del sistema
+
 - `hostnamectl set-hostname NuevoNombre`: Cambiamos el nombre del sistema sin necesidad de reiniciar.
 
 ![hostname](/img/hostname.png)
