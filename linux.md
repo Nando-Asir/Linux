@@ -1,4 +1,4 @@
-## [Conociendo el Servidor Linux](README.md)
+## 🐧 [Conociendo el Servidor Linux 🐧](README.md)
 
 `A continuación veremos algunos comandos importantes para conocer parámetros importantes de nuestro servidor`
 
