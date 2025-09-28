@@ -26,7 +26,7 @@
 
 ### 1. [Nombre del host](#-índice) 
 
-- `hostname`: Vemos el nombre del sistema "debian13".
+- `hostname`: Muestra el nombre del sistema "debian13".
 - `hostname -I`: Vemos la IP del servidor.
 - `hostname -f`: Podemos ver la FQDN del sistema.
 
