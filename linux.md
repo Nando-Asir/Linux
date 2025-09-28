@@ -24,11 +24,11 @@
 
 ---
 
-### 1. [Nombre del host](#índice) 
+### 1. [Nombre del host](#-índice) 
 
 ![hostname](/img/hostname.png)
 
-### 2. [Verificar el nombre del host](#índice)
+### 2. [Verificar el nombre del host](#-índice)
 
 ![hostname2](/img/catHostname.png)
 
@@ -88,6 +88,6 @@
 
 ![resolv](/img/confgDNS.png)
 
-### 15. [Reiniciar o ver estado la red](#índice)
+### 15. [Reiniciar o ver estado la red](#-índice)
 
 ![systemctl](/img/systemctlStatus.png)
