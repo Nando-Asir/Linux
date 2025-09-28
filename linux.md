@@ -37,12 +37,14 @@
 
 ![hostname](/img/hostname.png)
 
+---
 ### 2. [Verificar el nombre del host](#-índice)
 
 - `cat /etc/hostname`: Aquí observamos que hemos cambiado el nombre del sistema a `nandodevops`
 
 ![hostname2](/img/catHostname.png)
 
+---
 ### 3. [Versión del sistema](#-índice)
 
 - `lsb_release -a`: Muestra la información completa de la distribución Linux que estamos utilizando.
@@ -51,6 +53,7 @@
 
 ![version](/img/version.png)
 
+---
 ### 4. [Versión del núcleo y arquitectura](#-índice)
 
 - `uname -a`: Nos da la información del sistema.
@@ -58,6 +61,7 @@
 
 ![versioN](/img/versionNucleo.png)
 
+---
 ### 5. [Memoria RAM](#-índice)
 
 - `free`: Muestra la información básica de memoria-
@@ -65,6 +69,7 @@
 
 ![RAM](/img/memoria.png)
 
+---
 ### 6. [CPU](#-índice)
 
 - `lscpu`: Vemos la información completa de la CPU.
@@ -75,6 +80,7 @@
 
 ![nproc](/img/nproc.png)
 
+---
 ### 7. [Discos y particiones](#-índice)
 
 - `lsblk`: Muestra todos los discos y particiones
@@ -86,6 +92,7 @@
 
 ![fdisk](/img/fdisk.png)
 
+---
 ### 8. [Sistemas montados](#-índice)
 
 - `df -h`: Muestra el espacion que tenemos en los sistemas de ficheros de manera legible.
@@ -93,6 +100,7 @@
 
 ![montaje](/img/sistemasMontados.png)
 
+---
 ### 9. [Tamaño de una carpeta](#-índice)
 
 - `du -h`: Muestra el tamaño de los subdirectorios.
@@ -102,6 +110,7 @@
 
 ![tamaño](/img/tamanoCarpeta.png)
 
+---
 ### 10. [Usuarios del sistema](#-índice)
 
 - `cat /etc/passwd`: Muestra todos los usuarios del sistema, con la información de contraseñas en /etc/shadow, grupos, shell utilizada y directorio de trabajo entre otros.
@@ -115,6 +124,7 @@
 > [!NOTE]
 > cat /etc/passwd o cat /etc/shadow es lo mismo que escribir getent passwd o getent shadow. Aunque para ver las contraseñas se necesita permisos de root.
 
+---
 ### 11. [Grupos del sistema](#-índice)
 
 - `cat /etc/group`: Muestra todos los grupos del sistema.
@@ -128,6 +138,7 @@
 > [!NOTE]
 > cat /etc/group o cat /etc/gshadow es lo mismo que escribir getent group o getent gshadow. Aunque para ver las contraseñas se necesita permisos de root.
 
+---
 ### 12. [Información de la red](#-índice)
 
 - `ip a`: Muestra los detalles de la interfaz o las interfaces de red.
@@ -142,6 +153,7 @@
 
 ![inforDNS](/img/infoDNS.png)
 
+---
 ### 13. [Configuración de la red](#-índice)
 
 - `/etc/network/interfaces`: Archivo en el que podemos configurar manualmente la red de nuestro servidor con `nano /etc/network/interfaces`.
@@ -151,6 +163,7 @@
 
 ![interfaces](/img/configRed.png)
 
+---
 ### 14. [Configuración de los DNS](#-índice)
 
 - `/etc/resolv.conf`: Archivo en el que aparecen los DNS por defecto de nuestro servidor, podemos modificarlo con `nano /etc/resolv.conf`.
@@ -160,6 +173,7 @@
 
 ![resolv](/img/confgDNS.png)
 
+---
 ### 15. [Reiniciar o ver estado de la red](#-índice)
 
 - `systemctl status networking`: Vemos el estado en el que se encuentra nuesta red.
@@ -168,3 +182,5 @@
 - `ifdown enp0s3`: "Apagamos" la tarjeta de red, en mi caso enp0s3.
 
 ![systemctl](/img/systemctlStatus.png)
+
+---
