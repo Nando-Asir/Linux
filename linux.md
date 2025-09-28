@@ -14,7 +14,7 @@
 
 ### 3. Versión del sistema
 
-![]()
+![version](/img/version.png)
 
 ### 4. Versión del núcleo y arquitectura
 
