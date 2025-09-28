@@ -30,6 +30,7 @@
 - `hostname -I`: Vemos la IP del servidor.
 - `hostname -f`: Podemos ver la FQDN del sistema.
 
+> [!NOTE]
 > Si tuvieramos un nombre de dominio saldría completo en la FQDN del sistema
 
 - `hostnamectl set-hostname NuevoNombre`: Cambiamos el nombre del sistema sin necesidad de reiniciar.
