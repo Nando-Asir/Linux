@@ -4,7 +4,7 @@
 
 ---
 
-<p><img src="img/linux.jpeg" alt="razer" width="600" height="300"></p>
+<img src="img/linux.jpeg" alt="razer" width="600" height="300">
 
 ---
 
