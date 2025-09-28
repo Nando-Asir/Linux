@@ -68,9 +68,10 @@
 ### 6. [CPU](#-índice)
 
 - `lscpu`: Vemos la información completa de la CPU.
-- `nproc`: Nos da la cantidad total de procesadores lógicos.
 
 ![lscpu](/img/lscpu.png)
+
+- `nproc`: Nos da la cantidad total de procesadores lógicos.
 
 ![nproc](/img/nproc.png)
 
@@ -101,20 +102,28 @@
 ### 10. [Usuarios del sistema](#-índice)
 
 - `cat /etc/passwd`: Muestra todos los usuarios del sistema, con la información de contraseñas en /etc/shadow, grupos, shell utilizada y directorio de trabajo entre otros.
+
+![passwd](/img/passwd.png)
+
 - `cat /etc/shadow`: Nos da la información de las contraseñas de los usuarios del sistema. Suelen estar encriptadas si empiezan por **$**.
+
+![shadow](/img/shadow.png)
 
 > [!NOTE]
 > cat /etc/passwd o cat /etc/shadow es lo mismo que escribir getent passwd o getent shadow. Aunque para ver las contraseñas se necesita permisos de root.
 
-![passwd](/img/passwd.png)
-
-![shadow](/img/shadow.png)
-
 ### 11. [Grupos del sistema](#-índice)
+
+- `cat /etc/group`: Muestra todos los grupos del sistema.
 
 ![group](/img/group.png)
 
+- `cat /etc/gshadow`: Muestra las contraseñas de los grupos el sistema.
+
 ![gshadow](/img/gshadow.png)
+
+> [!NOTE]
+> cat /etc/group o cat /etc/gshadow es lo mismo que escribir getent group o getent gshadow. Aunque para ver las contraseñas se necesita permisos de root.
 
 ### 12. [Información de la red](#-índice)
 
