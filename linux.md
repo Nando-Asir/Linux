@@ -130,18 +130,41 @@
 
 ### 12. [Información de la red](#-índice)
 
+- `ip a`: Muestra los detalles de la interfaz o las interfaces de red.
+- `ip r`: Da la información sobre la puerta de enlace, dirección de red.
+- `ping -c 4 192.168.1.1`: Realiza ping a la puerta de enlace para ver el tiempo que tarda y si llegan los paquetes.
+- `ping -c 4 google.es`: Manda 4 paquetes a google.es para ver el tiempo que tarda y si llegan los paquetes.
+
 ![infoRed](/img/infoRed.png)
+
+- `nslookup google.es`: Le preguna a google ¿Quién responde? y éste le responde.
+- `nslookup 8.8.8.8`: Pregunta ¿Quién eres? y le responde a quién pertenece el DNS.
 
 ![inforDNS](/img/infoDNS.png)
 
 ### 13. [Configuración de la red](#-índice)
 
+- `/etc/network/interfaces`: Archivo en el que podemos configurar manualmente la red de nuestro servidor con `nano /etc/network/interfaces`.
+
+> [!NOTE]
+> He añadido las últimas líneas para mostrar como configurariamos de forma estática una red.
+
 ![interfaces](/img/configRed.png)
 
 ### 14. [Configuración de los DNS](#-índice)
 
+- `/etc/resolv.conf`: Archivo en el que aparecen los DNS por defecto de nuestro servidor, podemos modificarlo con `nano /etc/resolv.conf`.
+
+> [!NOTE]
+> Podemos configurarlo también desde /etc/network/interfaces añadiendo abajo de gateway dns-nameservers X.X.X.X Z.Z.Z.Z.
+
 ![resolv](/img/confgDNS.png)
 
 ### 15. [Reiniciar o ver estado de la red](#-índice)
+
+- `systemctl status networking`: Vemos el estado en el que se encuentra nuesta red.
+- `systemctl restart networking`: Con este comando reiniciamos la red, por si hemos hecho alguna modificación en el archivo /etc/network/interfaces.
+- `ifup enp0s3`: "Encendemos" la tarjeta de red, en mi caso enp0s3.
+- `ifdown enp0s3`: "Apagamos" la tarjeta de red, en mi caso enp0s3.
 
 ![systemctl](/img/systemctlStatus.png)
