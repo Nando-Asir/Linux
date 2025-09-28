@@ -5,7 +5,7 @@
 ### ïndice
 
 - [1. Nombre del host](#-nombre-del-host)
-- [2. Verificar el nombre del host]()
+- [2. Verificar el nombre del host](#-)
 - [3. Versión del sistema]()
 - [4. Versión del núcleo y arquitectura]()
 - [5. Memoria RAM]()
@@ -17,7 +17,7 @@
 - [11. Grupos del sistema]()
 - [12. Información de la red]()
 - [13. Configuración de la red]()
-- [14. Configuración de los DNS]()
+- [14. Configuración de los DNS](#-configuración-de-los-dns)
 - [15. Reiniciar o ver estado de la red]()
 
 ---
