@@ -1,3 +1,7 @@
 ## 👤 [AUTOR](README.md) 
 
-## [Nando-Asir](https://github.com/Nando-Asir)
+---
+
+## [Fernando Durán](https://github.com/Nando-Asir)
+
+---
