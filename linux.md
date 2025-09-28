@@ -6,7 +6,7 @@
 
 ### 📋 Índice
 
-1. [Nombre del host](#1-nombre-del-host)
+#### 1. [Nombre del host](#1-nombre-del-host)
 2. [Verificar el nombre del host](#2-verificar-el-nombre-del-host)
 3. [Versión del sistema](#3-versión-del-sistema)
 4. [Versión del núcleo y arquitectura](#4-versión-del-núcleo-y-arquitectura)
