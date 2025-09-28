@@ -10,7 +10,7 @@
 
 ### 2. Verificar el nombre del host
 
-![hostname2](catHostname.png)
+![hostname2](/img/catHostname.png)
 
 ### 3. Versión del sistema
 
