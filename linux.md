@@ -4,7 +4,7 @@
 
 ---
 
-### Índice
+### 📋 Índice
 
 1. [Nombre del host](#1-nombre-del-host)
 2. [Verificar el nombre del host](#2-verificar-el-nombre-del-host)
