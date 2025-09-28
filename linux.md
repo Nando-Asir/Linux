@@ -26,15 +26,15 @@
 
 ### 6. CPU
 
-![]()
+![CPU](/img/lscpu.png)
 
 ### 7. Discos y particiones
 
-![]()
+![lsblk](/img/discosParticiones.png)
 
 ### 8. Sistemas montados
 
-![]()
+![montaje](/img/sistemasMontados.png)
 
 ### 9. Tamaño de una carpeta
 
