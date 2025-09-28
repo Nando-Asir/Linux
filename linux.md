@@ -4,21 +4,21 @@
 
 ### ïndice
 
-- [1. Nombre del host](#-nombre-del-host)
-- [2. Verificar el nombre del host](#-)
-- [3. Versión del sistema]()
-- [4. Versión del núcleo y arquitectura]()
-- [5. Memoria RAM]()
-- [6. CPU]()
-- [7. Discos y particiones]()
-- [8. Sistemas montados]()
-- [9. Tamaño de una carpeta]()
-- [10. Usuarios del sistema]()
-- [11. Grupos del sistema]()
-- [12. Información de la red]()
-- [13. Configuración de la red]()
+- [1. Nombre del host](#1-nombre-del-host)
+- [2. Verificar el nombre del host](#2-verificar-el-nombre-del-host)
+- [3. Versión del sistema](#3-versión-del-sistema)
+- [4. Versión del núcleo y arquitectura](#4-versión-del-núcleo-y-arquitectura)
+- [5. Memoria RAM](#5-memoria-ram)
+- [6. CPU](#6-cpu)
+- [7. Discos y particiones](#7-discos-y-particiones)
+- [8. Sistemas montados](#8-sistemas-montados)
+- [9. Tamaño de una carpeta](#9-tamaño-de-una-carpeta)
+- [10. Usuarios del sistema](#10-usuarios-del-sistema)
+- [11. Grupos del sistema](#11-grupos-del-sistema)
+- [12. Información de la red](#12-información-de-la-red)
+- [13. Configuración de la red](#13-configuración-de-la-red)
 - [14. Configuración de los DNS](#14-configuración-de-los-dns)
-- [15. Reiniciar o ver estado de la red]()
+- [15. Reiniciar o ver estado de la red](#15-reiniciar-o-ver-estado-de-la-red)
 
 ---
 
