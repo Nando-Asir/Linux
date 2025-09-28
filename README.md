@@ -1,6 +1,10 @@
 # 🐧 Repositorio de Linux 🐧
 
-## Proyecto Intermodular
+## Proyecto Intermodular - 2º ASIR
+
+---
+
+![linux](/img/linux.jpeg)
 
 ---
 
