@@ -6,7 +6,7 @@
 
 ### 1. Nombre del host 
 
-
+![hostname](/img/hostname.png)
 
 ### 2. Verificar el nombre del host
 
