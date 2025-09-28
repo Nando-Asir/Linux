@@ -4,7 +4,7 @@
 
 ---
 
-![linux](/img/linux.jpeg)
+<p align="center"><img src="img/linux.jpeg" alt="razer" width="850" height="400"></p>
 
 ---
 
