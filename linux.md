@@ -18,11 +18,11 @@
 
 ### 4. Versión del núcleo y arquitectura
 
-![]()
+![versioN](/img/versionNucleo.png)
 
 ### 5. Memoria RAM
 
-![]()
+![RAM](/img/memoria.png)
 
 ### 6. CPU
 
