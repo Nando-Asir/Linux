@@ -1,5 +1,7 @@
 ## [Conociendo el Servidor Linux](README.md)
 
+**A continuación veremos algunos comandos importantes para conocera a parámetros importantes de nuestro servidor**
+
 ---
 
 ### 1. Nombre del host 
