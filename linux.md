@@ -26,9 +26,16 @@
 
 ### 1. [Nombre del host](#-índice) 
 
+- `hostname`: Vemos el nombre del sistema "debian13".
+- `hostname -I`: Vemos la IP del servidor.
+- `hostname -f`: Podemos ver la FQDN del sistema.
+- `hostnamectl set-hostname NuevoNombre`: Cambiamos el nombre del sistema sin necesidad de reiniciar.
+
 ![hostname](/img/hostname.png)
 
 ### 2. [Verificar el nombre del host](#-índice)
+
+- `cat /etc/hostname`: Aquí observamos que hemos cambiado el nombre del sistema a `nandodevops`
 
 ![hostname2](/img/catHostname.png)
 
