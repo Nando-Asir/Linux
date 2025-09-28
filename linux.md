@@ -45,17 +45,30 @@
 
 ### 3. [Versión del sistema](#-índice)
 
+- `lsb_release -a`: Muestra la información completa de la distribución Linux que estamos utilizando.
+- `cat /etc/os-release`: Da información sobre el sistema operativo.
+- `cat /etc/debian-version`: Vemos la versión del debian que utilizamos.
+
 ![version](/img/version.png)
 
 ### 4. [Versión del núcleo y arquitectura](#-índice)
+
+- `uname -a`: Nos da la información del sistema.
+- `uname -r`: Muestra la versión del kernel.
 
 ![versioN](/img/versionNucleo.png)
 
 ### 5. [Memoria RAM](#-índice)
 
+- `free`: Muestra la información básica de memoria-
+- `free -h`: Nos da la información en un formato legible.
+
 ![RAM](/img/memoria.png)
 
 ### 6. [CPU](#-índice)
+
+- `lscpu`: Vemos la información completa de la CPU.
+- `nproc`: Nos da la cantidad total de procesadores lógicos.
 
 ![lscpu](/img/lscpu.png)
 
@@ -63,17 +76,35 @@
 
 ### 7. [Discos y particiones](#-índice)
 
+- `lsblk`: Muestra todos los discos y particiones
+- `lsblk -f`: Nos da la información con más detalle de capacidad disponible, tipo, etc.
+- `fdisk -l`: Lista las particiones.
+
 ![lsblk](/img/discosParticiones.png)
 
 ### 8. [Sistemas montados](#-índice)
+
+- `df -h`: Muestra el espacion que tenemos en los sistemas de ficheros de manera legible.
+- `df -hT`: Nos lo muestra igual que `df -h` pero añadiendo el tipo.
 
 ![montaje](/img/sistemasMontados.png)
 
 ### 9. [Tamaño de una carpeta](#-índice)
 
+- `du -h`: Muestra el tamaño de los subdirectorios.
+- `du -h /home`: Nos da la información del tamaño de los subdirectorios del directorio /home.
+- `du -hs /home`: Indica lo que ocupa /home en total.
+- `du -hs /home/*`: Muestra el tamaño de cada directorio dentro de /home de forma resumida y legible.
+
 ![tamaño](/img/tamanoCarpeta.png)
 
 ### 10. [Usuarios del sistema](#-índice)
+
+- `cat /etc/passwd`: Muestra todos los usuarios del sistema, con la información de contraseñas en /etc/shadow, grupos, shell utilizada y directorio de trabajo entre otros.
+- `cat /etc/shadow`: Nos da la información de las contraseñas de los usuarios del sistema. Suelen estar encriptadas si empiezan por **$**.
+
+> [!NOTE]
+> cat /etc/passwd o cat /etc/shadow es lo mismo que escribir getent passwd o getent shadow. Aunque para ver las contraseñas se necesita permisos de root.
 
 ![passwd](/img/passwd.png)
 
