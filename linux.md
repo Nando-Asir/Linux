@@ -79,9 +79,12 @@
 
 - `lsblk`: Muestra todos los discos y particiones
 - `lsblk -f`: Nos da la información con más detalle de capacidad disponible, tipo, etc.
+
+![lsblk](/img/lsblk.png)
+
 - `fdisk -l`: Lista las particiones.
 
-![lsblk](/img/discosParticiones.png)
+![fdisk](/img/fdisk.png)
 
 ### 8. [Sistemas montados](#-índice)
 
