@@ -22,70 +22,70 @@
 
 ---
 
-### 1. Nombre del host 
+### 1. [Nombre del host](#índice) 
 
 ![hostname](/img/hostname.png)
 
-### 2. Verificar el nombre del host
+### 2. [Verificar el nombre del host](#índice)
 
 ![hostname2](/img/catHostname.png)
 
-### 3. Versión del sistema
+### 3. [Versión del sistema](#índice)
 
 ![version](/img/version.png)
 
-### 4. Versión del núcleo y arquitectura
+### 4. [Versión del núcleo y arquitectura](#índice)
 
 ![versioN](/img/versionNucleo.png)
 
-### 5. Memoria RAM
+### 5. [Memoria RAM](#índice)
 
 ![RAM](/img/memoria.png)
 
-### 6. CPU
+### 6. [CPU](#índice)
 
 ![lscpu](/img/lscpu.png)
 
 ![nproc](/img/nproc.png)
 
-### 7. Discos y particiones
+### 7. [Discos y particiones](#índice)
 
 ![lsblk](/img/discosParticiones.png)
 
-### 8. Sistemas montados
+### 8. [Sistemas montados](#índice)
 
 ![montaje](/img/sistemasMontados.png)
 
-### 9. Tamaño de una carpeta
+### 9. [Tamaño de una carpeta](#índice)
 
 ![tamaño](/img/tamanoCarpeta.png)
 
-### 10. Usuarios del sistema
+### 10. [Usuarios del sistema](#índice)
 
 ![passwd](/img/passwd.png)
 
 ![shadow](/img/shadow.png)
 
-### 11. Grupos del sistema
+### 11. [Grupos del sistema](#índice)
 
 ![group](/img/group.png)
 
 ![gshadow](/img/gshadow.png)
 
-### 12. Información de la red
+### 12. [Información de la red](#índice)
 
 ![infoRed](/img/infoRed.png)
 
 ![inforDNS](/img/infoDNS.png)
 
-### 13. Configuración de la red
+### 13. [Configuración de la red](#índice)
 
 ![interfaces](/img/configRed.png)
 
-### 14. Configuración de los DNS
+### 14. [Configuración de los DNS](#índice)
 
 ![resolv](/img/confgDNS.png)
 
-### 15. Reiniciar o ver estado la red
+### 15. [Reiniciar o ver estado la red](#índice)
 
 ![systemctl](/img/systemctlStatus.png)
